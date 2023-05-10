@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "[BE] Debug",
+      "runtimeExecutable": "yarn",
+      "args": ["start:debug"],
+      "cwd": "${workspaceRoot}/back-end",
+      "console": "integratedTerminal",
+      "restart": true,
+      "port": 9229,
+      "autoAttachChildProcesses": true
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "[BE] Dev",
+      "runtimeExecutable": "yarn",
+      "args": ["start:dev"],
+      "cwd": "${workspaceRoot}/back-end",
+      "console": "integratedTerminal",
+      "restart": true,
+    },
+  ],
+}

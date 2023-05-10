@@ -1,0 +1,39 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  // ESLint
+  "eslint.workingDirectories": [
+    {
+      "directory": "./back-end"
+    },
+    {
+      "directory": "./front-end"
+    }
+  ],
+  // Code spellcheck to ignore project-specific words
+  "cSpell.words": [
+    "commitlint",
+    "commitlintrc",
+    "Mantine",
+    "middlewares",
+    "Roboto",
+    "Segoe",
+    "viewports"
+  ],
+
+  // Fix all auto-fixable issues reported by ESLint
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // Move Sidebar to the right-hand side
+  "workbench.sideBar.location": "right",
+
+  // Enable running npm scripts from the Explorer menu
+  "npm.enableRunFromFolder": true,
+
+  // Enable reference hints via code lens
+  "typescript.referencesCodeLens.enabled": true,
+
+  // Enable VSC built-in bracket colorization instead of using an extension
+  "editor.bracketPairColorization.enabled": true
+}
